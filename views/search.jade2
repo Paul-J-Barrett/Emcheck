@@ -1,0 +1,15 @@
+#wrap
+  #logo
+  #wrapnm
+    .clear
+    h2 Emergency Check-In
+    form(method="GET",action="/search")
+      fieldset
+        legend Search
+        label Enter MBR #/Serial:
+        input(type='text', name='mbr')
+        input(type='submit', value='Search')
+    #results
+        p MemberNo:  #{MemberNo}
+        p Name:      #{Name}	
+    a(href="index",style="color:gray") Clear

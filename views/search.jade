@@ -1,0 +1,24 @@
+#wrap
+  .logo
+  #wrapnm
+    .clear
+    h2 Emergency Check-In
+    form(method="GET",action="/search")
+      fieldset
+        legend Search
+        label Enter MBR #/Serial:
+        input(id='mbr',type='text', name='mbr')
+        input(type='submit', value='Search')
+    #results
+        p Member No:  #{MemberNo}
+        p Name	      #{Name}
+        p Owed Total: 
+          span#OwedTotal #{OwedTotal}
+        p#twl Towel:
+          span#Towel #{Status}
+        p Contract Type: #{CtrType}
+        p#n Next Payment Due #{NextDueDate} for $
+          span#nda #{NextDueAmt}
+          span#ndd &nbsp;#{NextDueDesc}
+    a(href="index",style="color:gray") Clear
+    p File Downloaded: #{FileDate}

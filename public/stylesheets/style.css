@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  font: 18px Verdana, "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #000043;
+  background: url("/images/back.gif") 100% 100% repeat;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  line-height: 1em;
+  color: #fff;
+}
+.logo {
+  background: url("/images/logo.png") no-repeat center top;
+  height: 95px;
+}
+.green {
+  background-color: #373;
+}
+#wrap {
+  width: 600px;
+  background-color: #000063;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+.wrapnm {
+  width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  margin: 4px;
+  padding: 2px;
+}
+h2 {
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.error {
+  color: #ff0;
+  background-color: #000063;
+  font-size: 1.3em;
+}

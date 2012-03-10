@@ -1,0 +1,12 @@
+#wrap
+  .logo
+  #wrapnm
+    .clear
+    h2 Emergency Check-In
+    form(method="GET",action="/search")
+      fieldset
+        legend Search
+        label Enter MBR #/Serial:
+        input(id='mbr',type='text', name='mbr')
+        input(type='submit', value='Search')
+    p #{Results}
