@@ -26,3 +26,7 @@ Browse to  http://localhost:3001/
 See Emergency.txt for valid member numbers. We also use a serial number for the cards which is formated 3of9 barcode preceded with a period.
 Try 1111
 or try .1111
+
+#Todo
+Redo project adding unit testing and twitter bootstrap.
+
